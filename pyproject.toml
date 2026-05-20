@@ -1,0 +1,18 @@
+[project]
+name = "assignment1-realtime-streaming"
+version = "0.1.0"
+description = "Real-time Bike Sharing prediction pipeline with Apache Kafka, Faust, and scikit-learn"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "aiokafka==0.10.0",
+    "confluent-kafka==2.8.0",
+    "faust-streaming==0.11.3",
+    "joblib==1.4.2",
+    "numpy==2.1.3",
+    "pandas==2.2.3",
+    "scikit-learn==1.5.2",
+]
+
+[tool.uv]
+package = false

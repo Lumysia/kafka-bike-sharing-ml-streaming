@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+ENV/
+env/
+build/
+dist/
+*.egg-info/
+
+# Local environment
+.env
+.env.*
+
+# macOS and editors
+.DS_Store
+.idea/
+.vscode/
+
+# Faust/runtime output
+faust-data/
+bike-sharing-stream-processor-data/
+logs/
+
+# Downloaded archive, extracted CSV is kept for reproducibility
+data/Bike-Sharing-Dataset.zip

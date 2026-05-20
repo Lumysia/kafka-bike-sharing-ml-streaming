@@ -1,0 +1,8 @@
+Bike Sharing rental count regression model
+Dataset rows: 17379
+Train rows: 13903
+Test rows: 3476
+MAE: 25.053
+MSE: 1778.578
+RMSE: 42.173
+R2: 0.9438
